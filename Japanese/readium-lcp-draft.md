@@ -9,7 +9,7 @@ permalink: /readium-lcp-specification/
 
 Copyright 2016, Readium Foundation. All Rights Reserved.
 
-Document Revision: 1.1
+Document Revision: 1.2
 
 この文書は、Readium Licensed Content Protection Specification 1.0の日本語抄訳である。この抄訳は参考であって規定ではない。翻訳上の誤りもありうる。
 
@@ -275,7 +275,7 @@ LCPを使用して保護された出版物では、これらのリソースを�
 
 * ファイル名はファイル拡張子`.lcpl`を用いなければならない（MUST）。
 
-* MIMEメディアタイプは`application/vnd.readium.lcp.license-1.0+json`である。
+* MIMEメディアタイプは`application/vnd.readium.lcp.license.v1.0+json`である。
 
 * コンテナ内での場所は、`META-INF/license.lcpl`でなければならない（MUST）。
 
